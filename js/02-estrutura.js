@@ -9,3 +9,6 @@
 
 //  Arrays 
 let cursos = ["Node.js", "React", "SQL", "UX/UI Design"];
+
+console.log(cursos); // saída direta/estruturada
+console.log(cursos[2]); // SQL
