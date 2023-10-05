@@ -57,10 +57,10 @@ que criou.*/
 
 let manunited = {
     nome: "Manchester United",
-    jogadores: ["Onana", "Luke Shaw", "Varane",],
+    jogadores: ["Onana", "Luke Shaw", "Varane", "Matinez", "Dalot", "casemiro", "Mount", "Bruno Fernandes"],
     tecnico: "Ten Hag",
     patrocinador: "team Viewer",
     campeonato: ["Premier League", "Champions League"]
 };
 
-console.log(`O ${manunited.nome} perdeu novamente na ${manunited.campeonato[1]} com uma falha do jogador ${manunited.jogadores[0]}, o tecnico${manunited.tecnico} comenta sobre a derrota e diz que o foco é na ${manunited.campeonato[0]} `);
+console.log(`O ${manunited.nome} perdeu novamente na ${manunited.campeonato[1]} com uma falha do jogador ${manunited.jogadores[0]}, o técnico${manunited.tecnico} comenta sobre a derrota e diz que o foco é na ${manunited.campeonato[0]} `);
