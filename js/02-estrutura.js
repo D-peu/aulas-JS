@@ -37,7 +37,7 @@ let carro = {
     portas: "2",
     cor: "branco",
     opcionais: ["Ar condicionado", "Vidros elétricos", "Alarme"]
-}
+};
 
 console.log(carro);
 console.log(carro.modelo);
@@ -45,3 +45,22 @@ console.log(carro.modelo);
 console.log(`Carros da ${carro.marca} tem a cor ${carro.cor}`);
 
 console.log(`Este carro tem ${carro.opcionais[0]}`);
+
+
+
+/* Exercícios
+1) Crie um novo objeto contendo informações de algo que você gosta 
+(filmes, livros, comida, jogo etc) 
+
+2) Mostre uma mensagem com pelo menos 2 propriedades do objeto
+que criou.*/
+
+let manunited = {
+    nome: "Manchester United",
+    jogadores: ["Onana", "Luke Shaw", "Varane",],
+    tecnico: "Ten Hag",
+    patrocinador: "team Viewer",
+    campeonato: ["Premier League", "Champions League"]
+};
+
+console.log(`O ${manunited.nome} perdeu novamente na ${manunited.campeonato[1]} com uma falha do jogador ${manunited.jogadores[0]}, o tecnico${manunited.tecnico} comenta sobre a derrota e diz que o foco é na ${manunited.campeonato[0]} `);
