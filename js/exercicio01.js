@@ -1,3 +1,6 @@
+
+"use strict"
+
 let aluno = "Kaio";
 
 let geografia = 2;
