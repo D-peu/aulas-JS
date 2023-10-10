@@ -64,3 +64,58 @@ let manunited = {
 };
 
 console.log(`O ${manunited.nome} perdeu novamente na ${manunited.campeonato[1]} com uma falha do jogador ${manunited.jogadores[0]}, o técnico${manunited.tecnico} comenta sobre a derrota e diz que o foco é na ${manunited.campeonato[0]} `);
+
+
+console.log(`-----------------`);
+
+// Objeto com array e com outro objeto
+let pessoa = {
+    nome: "Shiryu",
+    idade: 20,
+    telefones: ["11-2135-0300", "11-9234-5678"],
+    medida: {
+        peso: 65,
+        altura: 1.75
+    }
+};
+
+console.log(`Nome: ${pessoa.nome}`);
+console.log(`Celular: ${pessoa.telefones[1]}`);
+console.log(`Peso: ${pessoa.medida.peso}kg`);
+
+
+// Array de objetos
+let alunos = [
+    {
+        nome: "Naruto",
+        idade: 10
+    },
+    {
+        nome: "Guts",
+        idade: 30
+    },
+    {
+        nome: "Dohko",
+        idade: 120
+    }
+];
+
+console.log( alunos[1].nome ); // Guts
+console.log( alunos[1].nome ); // Naruto
+
+console.log(
+`O cavaleiro de ouro originalmente era o ${alunos[2].nome} de Libra que tem ${alunos[2].idade}anos`);
+
+
+// Array como matriz
+let tecnologias = [
+    ["HTML5", "CSS3", "JavaScript"],
+    ["PHP", "SQL", "APIs", "Node", "Python"],
+    ["figma", "Photoshop"]
+]
+
+console.log(tecnologias[1][3]);// Node
+console.log(tecnologias[2][1]);//Photoshop
+console.log(tecnologias[0][0]);//HTML5
+
+console.table(manunited);
