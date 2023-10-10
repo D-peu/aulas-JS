@@ -14,14 +14,14 @@ let media2 = media1 / 5
 
 console.log(media2);
 
-let mensagem;
+let resultado;
 
 if ( media2 >= 7 ) {
-    mensagem = "aprovado"
+    resultado = "aprovado"
 } else if ( media2 >= 5){
     mensagem = "recuperação"
 } else {
-    mensagem = "reprovado"
+    resultado = "reprovado"
 };
 
-console.log(`O devido a nota ${media2} o ${aluno} está ${mensagem}`);
+console.log(`O devido a nota ${media2} o ${aluno} está ${resultado}`);
