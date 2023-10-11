@@ -19,8 +19,22 @@ while ( contador <= 5 ){
 
 
 // EXEMPLO DO/WHILE (FAÇA/ENQUANTO)
-let contador = 1;
+/* let i = 1;
 do {
-    console.log(`Contador vale: ${contador}`);
-    contador++;
-} while ( contador <= 3 )
+    console.log(`Contador vale: ${i}`);
+    i++;
+} while ( i <= 3 ) */
+
+/* Obs,: normalmente variáveis de controle 
+de repetições são chamadas de i, j ou k. */
+
+
+
+// EXEMPLO FOR (PARA)
+/* for ( let i = 1; i <= 10; i++ ){
+    console.log(`i vale ${i}`);
+} */
+
+
+/* Loop com array */
+let cliente = ["Ozzy", "Dio", "Gillan", "MArtin", "Hughes"];
