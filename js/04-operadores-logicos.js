@@ -17,12 +17,24 @@ let resultado;
     resultado = "reprovado";
 } */
 
-if ( mediafinal >= mediaminima && faltas <= limitedefaltas ){
+
+
+/* if ( mediafinal >= mediaminima && faltas <= limitedefaltas ){
     resultado = "aprovado";
 } else if ( faltas > limitedefaltas ){
     console.log("reprovado por faltas");
 } else {
     resultado = "reprovado"
+} */
+
+
+
+if ( faltas > limitedefaltas ){
+    resultado = "reprovado por faltas";
+} else if ( mediafinal >= mediaminima ){
+    resultado = "aprovado";
+} else {
+    resultado = "reprovado";
 }
 
 console.log(`O aluno ${aluno} está ${resultado}`);
