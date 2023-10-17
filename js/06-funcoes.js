@@ -33,10 +33,37 @@ exemplo3();
 
 /* Exemplos diversos */
 
+/* Função com parâmetros e retornos de dados/resultados */
 function somar(valor1, valor2){
-    valor1 + valor2;
+    return valor1 + valor2;
 }
 
-console.log( somar(10,20));
-console.log( somar(15,50));
-console.log( somar(30,47.8));
+/* Chamadasa função diversas vezes
+e passando valores diferentes como parâmetros. */
+console.log( somar(10,20) );
+console.log( somar(15,50) );
+console.log( somar(30,47.8) );
+
+/* Formatação de valores em reais */
+let preco = 5000;
+let desconto = preco * 0.10; // 10%
+let precofinal = preco - desconto;
+
+console.log(
+        `Preço: ${preco.toLocaleString("pt-br", {
+        style: "currency",
+        currency: "BRL"
+    })}`
+);
+console.log(
+        `Desconto: ${desconto.toLocaleString("pt-br", {
+        style: "currency",
+        currency: "BRL"
+    })}`
+);
+console.log(
+        `Preço final: ${precofinal.toLocaleString("pt-br", {
+        style: "currency",
+        currency: "BRL"
+    })}`
+);
