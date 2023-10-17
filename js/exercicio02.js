@@ -13,7 +13,8 @@ let alunos = [
     }
 ];
 
+let quantidadealunos = alunos.length;
 
-for ( let i = 0; 1 < 3; i++ ){
-    console.log(`Alunos: ${alunos[1].nome[i]}`);
+for ( let i = 0; i < quantidadealunos; i++ ){
+    console.log(alunos[i].nome);
 }
