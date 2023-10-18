@@ -47,3 +47,17 @@ for(let link of linksReferencia){
 /* for ( let i = 0; i < quantidadedelinks; i++ ){
     linksReferencia[i].setAttribute("target","_blank");
 } */
+
+
+
+/* Manipulando Eventos */
+const pagina = document.querySelector("body");
+const exemplo01 = document.querySelector("#exemplo01");
+const mensagem = document.querySelector("#mensagem");
+
+// Ouvinte de evento
+exemplo01.addEventListener("click", function(){
+    pagina.style.fontFamily = "Verdana";
+    mensagem.textContent = "Fonte alterada!";
+    mensagem.style.backgroundColor = "yellow";
+});
