@@ -85,11 +85,14 @@ function gerenciadormodonoturno(){
     /* Se a página estiver com a classe chamada "modo-noturno", então mude o texto do botão para "desativar".
     Caso contrário, faça o botão exibir o texto "ativar" */
 
+    /* Se pagina contem a classe modo-noturno */
     if (pagina.className == "modo-noturno"){
+        // mude o texto do botão para "Desativar"
         botao.textContent = "Desativar";
     } else{
         botao.textContent = "Ativar";
     }
+    
 }
 
 
